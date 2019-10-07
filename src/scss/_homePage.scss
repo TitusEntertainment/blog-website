@@ -1,0 +1,59 @@
+.Home_article {
+  margin-top: 2%;
+  #header-articles {
+    padding-left: 20rem;
+    font-weight: 600;
+  }
+}
+
+#articles {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4rem 20rem;
+
+  .article {
+    width: 50rem;
+    background-color: #ffffff;
+    height: 35rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+    img {
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    #article-text {
+      padding: 1rem 2rem;
+
+      h1 {
+        font-weight: 600;
+      }
+
+      #date {
+        padding-top: 2rem;
+        color: #464646;
+        font-weight: 300;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  #about-me {
+    width: 25rem;
+    img {
+      width: 18rem;
+      border-radius: 0.4rem;
+    }
+
+    #picture-date {
+      padding-top: 0.5rem;
+      font-weight: lighter;
+      color: #464646;
+      font-size: 0.8rem;
+    }
+
+    #about-me-synopsis {
+      width: 60%;
+      font-size: 0.9rem;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import './scss/reset';
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
+
+$colors: (
+  bg: #f8f8f8,
+  main-green: #69e665,
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: color(bg);
+}
